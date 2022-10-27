@@ -2,7 +2,6 @@ import "./App.css";
 import Form from "./component/Form";
 import React from "react";
 import Card from "./component/Card";
-import Hide from "./component/Hide";
 import DataMahasiswa from "./component/data.js";
 import Anggota from "./component/Anggota.js";
 
@@ -38,7 +37,6 @@ function App() {
       </header>
      
       <Anggota/>
-      <Hide/>
       <h1>Kartu Praktikan</h1>
       {/* <Form onAddPraktikan={addPraktikanHandler} /> */}
       {/* Conditional rendering */}
