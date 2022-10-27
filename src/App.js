@@ -1,20 +1,8 @@
 import "./App.css";
-import Form from "./component/Form";
 import React from "react";
 import Card from "./component/Card";
 import DataMahasiswa from "./component/data.js";
 import Anggota from "./component/Anggota.js";
-
-// function App() {
-  // App()
-  // const [praktikan, setPraktikan] = React.useState(null);
-  // const addPraktikanHandler = (data) => {
-  //   console.log(data);
-  //   setPraktikan(data);
-  // };
-  // const removePraktikanHandler = () => {
-  //   setPraktikan(null);
-  // };
 
 function App() {
     const [data, setData] = React.useState([]);
