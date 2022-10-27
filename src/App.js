@@ -38,12 +38,9 @@ function App() {
      
       <Anggota/>
       <h1>Kartu Praktikan</h1>
-      {/* <Form onAddPraktikan={addPraktikanHandler} /> */}
-      {/* Conditional rendering */}
-
       <input
         id="inputNama"
-        placeholder="Masukkan Nama Mahasiswa..."
+        placeholder="Masukkan Nama Praktikan..."
         style={{ width: 400 }}
       />
 
@@ -52,16 +49,7 @@ function App() {
       </button>
 
       <br />
-
-      {/* {praktikan && (
-        <>
-          <button className="delete" onClick={removePraktikanHandler}>
-            Hapus
-          </button>
-          <Card nama={praktikan.nama} kelompok={praktikan.kelompok} />
-        </>
-      )} */}
-
+      
       {data.length !== 0 ? (
         data.map((mahasiswa, i) => {
           return <Card nama={mahasiswa.nama_lengkap} kelompok={mahasiswa.nim} i={i} />;

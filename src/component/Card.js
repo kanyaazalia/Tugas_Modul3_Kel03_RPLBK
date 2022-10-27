@@ -2,12 +2,6 @@ import React, { useEffect } from "react";
 import "./Card.css";
 // Card.js
 function Card(props) {
-  useEffect(() => {
-    alert("Kartu Nama Ditampilkan");
-    return () => {
-      alert("Kartu Nama akan dihapus");
-    };
-  }, []);
   return (
     <div className="card">
       <img src="avatar.png" alt="Avatar" />
