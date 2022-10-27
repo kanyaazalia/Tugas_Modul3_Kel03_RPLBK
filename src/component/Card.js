@@ -13,7 +13,7 @@ function Card(props) {
       <img src="avatar.png" alt="Avatar" />
       <div className="container">
         <h4>{props.nama}</h4>
-        <p>Kelompok {props.kelompok}</p>
+        <p>NIM: {props.kelompok}</p>
       </div>
     </div>
   );
