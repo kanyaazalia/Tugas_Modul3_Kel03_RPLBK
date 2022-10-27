@@ -7,7 +7,9 @@ export default function Card(props) {
             <table>
                 <tbody>
                     <tr>
-                        <img className='fotoProfil' src={props.data.foto_profil} alt="Foto Profil"/>
+                        <td colSpan="3">
+                            <img className='fotoProfil' src={props.data.foto_profil} alt="Foto Profil"/>
+                        </td>
                     </tr>
                     <tr>
                         <td>Nama Lengkap</td>
