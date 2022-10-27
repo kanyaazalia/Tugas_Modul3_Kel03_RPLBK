@@ -10,7 +10,7 @@ function Hide() {
         <div className="App">
             {
                 <div>
-                    <h1>Tugas Modul 3 Praktikum RPLBK Kelompok 02</h1>
+                    <h1>Tugas Modul 3 Praktikum RPLBK Kelompok 03</h1>
                     <div className="ViewKelompok">
                         <div
                             className="ViewKelompok1"
