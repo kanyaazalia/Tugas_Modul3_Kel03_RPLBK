@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./Anggota.css";
 import DataAnggota from "./DataAnggota.js";
-import Card from "./Card.js";
+import Card from "./CardKelompok.js";
 
 export default function Anggota() {
     const data = DataAnggota;
